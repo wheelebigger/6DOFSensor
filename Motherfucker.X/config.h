@@ -11,6 +11,7 @@
  ***************************************************/
 #pragma config FPLLIDIV = DIV_2
 #pragma config FPLLMUL = MUL_20
+//#pragma config FPLLMUL = MUL_18 //72 MHz
 #pragma config FPLLODIV = DIV_1
 
 
@@ -26,11 +27,12 @@
 #pragma config FWDTEN = OFF
 
 
-#pragma config ICESEL = ICS_PGx1
+#pragma config ICESEL = ICS_PGx2
 #pragma config PWP = OFF
 #pragma config BWP = OFF
 #pragma config CP = OFF
 
-#pragma config DEBUG = OFF
+//#pragma config DEBUG = ON
+
 
 #endif 
